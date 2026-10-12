@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "trollhack",
+  "version": "${version}",
+  "name": "Troll Hack",
+  "description": "At least it's better than Future Hack. Rewritten for Minecraft 26.2 (Fabric).",
+  "authors": [
+    "Luna",
+    "Fable 5"
+  ],
+  "contact": {
+    "homepage": "https://github.com/luna5ama/TrollHack",
+    "sources": "https://github.com/luna5ama/TrollHack"
+  },
+  "license": "AGPL-3.0",
+  "icon": "assets/trollhack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.luna5ama.trollhack.TrollHackMod"
+      }
+    ]
+  },
+  "mixins": [
+    "trollhack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-language-kotlin": ">=1.13.12+kotlin.2.4.0",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

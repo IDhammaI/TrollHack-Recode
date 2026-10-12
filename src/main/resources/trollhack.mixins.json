@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "package": "dev.luna5ama.trollhack.mixins",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MixinChatComponent",
+    "MixinChatScreen",
+    "MixinClientLevel",
+    "MixinClientPacketListener",
+    "MixinConnection",
+    "MixinFogRenderer",
+    "MixinGui",
+    "MixinKeyboardHandler",
+    "MixinLevelRenderer",
+    "MixinLocalPlayer",
+    "MixinMinecraft",
+    "MixinMouseHandler",
+    "MixinMultiPlayerGameMode",
+    "MixinPlayer",
+    "MixinPlayerTabOverlay",
+    "MixinPlayerEdge",
+    "MixinFramerateLimitTracker",
+    "MixinLevelWeather",
+    "accessor.AccessorClientCommonPacketListener",
+    "accessor.AccessorDisconnectedScreen",
+    "accessor.AccessorClientInput",
+    "accessor.AccessorClientLevel",
+    "accessor.AccessorLivingEntity",
+    "accessor.AccessorMinecraft",
+    "accessor.AccessorMultiPlayerGameMode",
+    "accessor.AccessorOptionInstance",
+    "accessor.AccessorServerboundMovePlayerPacket"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

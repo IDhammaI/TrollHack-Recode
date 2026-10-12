@@ -1,0 +1,16 @@
+.gradle/
+build/
+bin/
+run/
+out/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+.mcsrc/
+
+# Local build and diagnostic output
+*.log
+*.class
+gradle-compile-out.txt
+old/*.zip
